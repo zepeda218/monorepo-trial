@@ -1,0 +1,75 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.0.11",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "6473632679365245015"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "16705524895534804399"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "3505370690797296110"
+      },
+      {
+        "file": "package.json",
+        "hash": "16621926578808263514"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14443875240832808589"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "16930377617707010973"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "12208070209649294151"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9309690274916617380"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "9296480986299034742"
+      },
+      {
+        "file": "node_modules/.package-lock.json",
+        "hash": "10473176544384094554"
+      }
+    ],
+    "projectFileMap": {
+      "package-a": [
+        {
+          "file": "packages/package-a/index.js",
+          "hash": "7606720908268004646"
+        },
+        {
+          "file": "packages/package-a/package.json",
+          "hash": "10905038209626870873"
+        }
+      ],
+      "package-b": [
+        {
+          "file": "packages/package-b/index.js",
+          "hash": "18140359569127267300"
+        },
+        {
+          "file": "packages/package-b/package.json",
+          "hash": "8594475423330421822",
+          "deps": [
+            "package-a"
+          ]
+        }
+      ]
+    }
+  }
+}
